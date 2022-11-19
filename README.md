@@ -7,10 +7,9 @@ import we_heart_it
 we_heart_it = we_heart_it.WeHeartIt()
 we_heart_it.login(username="", password="", signature="")
 ```
-
-### Else
 ```python
-import we_heart_it
-we_heart_it = we_heart_it.WeHeartIt()
+# else
+```
+```python
 we_heart_it.login_with_access_token(access_token="")
 ```
