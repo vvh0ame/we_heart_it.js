@@ -1,15 +1,13 @@
-# we_heart_it.py
+# we_heart_it.js
 Mobile-API for [weheartit](https://play.google.com/store/apps/details?id=com.weheartit) social network
 
 ## Example
-```python
-import we_heart_it
-we_heart_it = we_heart_it.WeHeartIt()
-we_heart_it.login(username="", password="", signature="")
-```
-```python
-# else
-```
-```python
-we_heart_it.login_with_access_token(access_token="")
+```JavaScript
+async function main() {
+	const { WeHeartIt } = require("./we_heart_it.js")
+	const weHeartIt = new WeHeartIt()
+  await weHeartIt.login("username", "password", "signature")
+}
+
+main()
 ```
