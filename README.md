@@ -6,7 +6,7 @@ Mobile-API for [weheartit](https://play.google.com/store/apps/details?id=com.weh
 async function main() {
 	const { WeHeartIt } = require("./we_heart_it.js")
 	const weHeartIt = new WeHeartIt()
-  await weHeartIt.login("username", "password", "signature")
+	await weHeartIt.login("username", "password", "signature")
 }
 
 main()
